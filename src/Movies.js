@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Profile from './Profile';
 import Search from './Search';
 
-const api = 'https://api.themoviedb.org/3/search/movie?api_key=f4700e551e48ac2adadbf291b392dea6'
+const api = '//Enter Your Own Api Key'
 
 class Movies extends Component {
   constructor(props){
