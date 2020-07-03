@@ -20,8 +20,8 @@ class App extends Component {
 
 
 static defaultProps = {
-  clientID: '9I5Xd2LAa8QFFSULquhPxMJ8JBk2NceP',
-  domain: 'dev-48ltrdl6.auth0.com'
+  clientID: //'Enter AUTH0 Client ID',
+  domain: //'Enter AUTH0 Domain'
 }
 componentWillMount(){
    this.lock= new Auth0Lock(this.props.clientID, this.props.domain);
